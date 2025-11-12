@@ -1,0 +1,282 @@
+{
+  "info": {
+    "_postman_id": "c4528bd9-c81e-4564-bcce-f7825deab9ec",
+    "name": "react-django-estore-apis",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40439075"
+  },
+  "item": [
+    {
+      "name": "Token Generation API",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"admin\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/token/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "token", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Fetching Products API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/products/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "products", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Getting single product",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/products/1",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "products", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Placing Order API",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"items\": [\r\n    {\"product\": 1, \"quantity\": 1}\r\n  ]\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/orders/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "orders", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Fetching my order API",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"items\": [\r\n    {\"product\": 1, \"quantity\": 1}\r\n  ]\r\n}\r\n"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/my-orders/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "my-orders", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin Only API",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/admin/products/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "admin", "products", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Adding new product admin API",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Mobile\",\r\n  \"description\": \"Mobile can be used to travel purpose\",\r\n  \"price\": \"10000\",\r\n  \"stock\": 20\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/admin/products/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "admin", "products", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Deleting product - admin ONLY API",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/admin/products/2/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "admin", "products", "2", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin Fetching Orders API",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/admin/orders/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "admin", "orders", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin Fetching users API",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": " eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzYyODU2NjkwLCJpYXQiOjE3NjI4NTMwOTAsImp0aSI6IjhmZDAzNjljMTRkYTQ0MGZiODFlOTc5ZmI1Mjg2ZjNkIiwidXNlcl9pZCI6IjEifQ.ZsFhTTT2CG5kTg0YNme6dvSxKOdgGjPL6d8A3jYkM1Q",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/admin/users/",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "8000",
+          "path": ["api", "admin", "users", ""]
+        }
+      },
+      "response": []
+    }
+  ]
+}
