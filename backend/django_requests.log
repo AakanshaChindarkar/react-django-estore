@@ -1,0 +1,3 @@
+2025-11-12 11:12:25,153 [INFO] store.middleware: Request: POST /api/admin/api/token/
+2025-11-12 11:12:26,809 [INFO] store.middleware: Request: GET /api/products/
+2025-11-12 11:12:26,847 [INFO] store.middleware: Request: GET /api/products/

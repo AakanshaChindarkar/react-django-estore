@@ -1,0 +1,163 @@
+2025-11-12 11:14:34,609 [INFO] store.middleware: GET /api/products/ took 38.02ms
+2025-11-12 11:14:34,626 [INFO] store.middleware: GET /api/products/ took 12.00ms
+2025-11-12 11:21:09,312 [INFO] store.middleware: GET /api/products/ took 40.76ms
+2025-11-12 11:21:09,327 [INFO] store.middleware: GET /api/products/ took 10.80ms
+2025-11-12 11:21:16,226 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 998.75ms
+2025-11-12 11:21:16,874 [INFO] store.middleware: GET /api/admin/products/ took 8.00ms
+2025-11-12 11:21:16,886 [INFO] store.middleware: GET /api/admin/products/ took 8.02ms
+2025-11-12 11:21:20,025 [INFO] store.middleware: GET /api/admin/orders/ took 32.00ms
+2025-11-12 11:21:20,059 [INFO] store.middleware: GET /api/admin/orders/ took 29.03ms
+2025-11-12 11:21:22,883 [INFO] store.middleware: GET /api/admin/users/ took 10.00ms
+2025-11-12 11:21:22,897 [INFO] store.middleware: GET /api/admin/users/ took 10.96ms
+2025-11-12 11:21:25,382 [INFO] store.middleware: DELETE /api/admin/users/20/ took 47.13ms
+2025-11-12 11:21:34,271 [WARNING] store.middleware: Slow request: POST /api/admin/users/ took 1053.56ms
+2025-11-12 11:21:34,296 [INFO] store.middleware: GET /api/admin/users/ took 15.81ms
+2025-11-12 11:21:36,122 [INFO] store.middleware: GET /api/admin/products/ took 11.00ms
+2025-11-12 11:21:36,138 [INFO] store.middleware: GET /api/admin/products/ took 12.00ms
+2025-11-12 11:21:47,566 [INFO] store.middleware: POST /api/admin/products/ took 9.00ms
+2025-11-12 11:21:49,551 [INFO] store.middleware: POST /api/admin/products/ took 8.08ms
+2025-11-12 11:21:55,524 [INFO] store.middleware: GET /api/admin/products/ took 13.53ms
+2025-11-12 11:21:55,543 [INFO] store.middleware: GET /api/admin/products/ took 16.01ms
+2025-11-12 11:22:11,313 [INFO] store.middleware: POST /api/admin/products/ took 14.01ms
+2025-11-12 11:22:11,337 [INFO] store.middleware: GET /api/admin/products/ took 15.00ms
+2025-11-12 11:22:33,158 [INFO] store.middleware: POST /api/admin/products/ took 15.91ms
+2025-11-12 11:22:33,183 [INFO] store.middleware: GET /api/admin/products/ took 17.04ms
+2025-11-12 11:22:39,589 [WARNING] store.middleware: Slow request: DELETE /api/admin/products/3/ took 131.06ms
+2025-11-12 11:22:44,078 [INFO] store.middleware: GET /api/admin/products/ took 7.42ms
+2025-11-12 11:22:44,091 [INFO] store.middleware: GET /api/admin/products/ took 10.54ms
+2025-11-12 11:22:46,589 [INFO] store.middleware: DELETE /api/admin/products/3/ took 80.59ms
+2025-11-12 11:22:55,000 [INFO] store.middleware: DELETE /api/admin/products/3/ took 82.00ms
+2025-11-12 11:24:59,085 [INFO] store.middleware: GET /api/admin/products/ took 64.10ms
+2025-11-12 11:24:59,097 [INFO] store.middleware: GET /api/admin/products/ took 9.00ms
+2025-11-12 11:25:02,104 [INFO] store.middleware: DELETE /api/admin/products/3/ took 98.01ms
+2025-11-12 11:25:28,608 [INFO] store.middleware: DELETE /api/admin/products/3/ took 78.67ms
+2025-11-12 11:25:28,647 [INFO] store.middleware: GET /api/admin/products/ took 31.47ms
+2025-11-12 11:25:41,118 [INFO] store.middleware: GET /api/admin/products/ took 16.06ms
+2025-11-12 11:25:41,147 [INFO] store.middleware: GET /api/admin/products/ took 22.10ms
+2025-11-12 11:26:26,256 [INFO] store.middleware: GET /api/admin/products/ took 61.10ms
+2025-11-12 11:26:26,272 [INFO] store.middleware: GET /api/admin/products/ took 11.10ms
+2025-11-12 11:26:27,959 [INFO] store.middleware: DELETE /api/admin/products/3/ took 10.96ms
+2025-11-12 11:26:27,973 [INFO] store.middleware: GET /api/admin/products/ took 10.16ms
+2025-11-12 11:26:29,626 [INFO] store.middleware: GET /api/admin/products/ took 9.43ms
+2025-11-12 11:26:29,639 [INFO] store.middleware: GET /api/admin/products/ took 10.88ms
+2025-11-12 11:26:30,575 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 182.28ms
+2025-11-12 11:26:30,723 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 144.37ms
+2025-11-12 11:26:32,381 [INFO] store.middleware: GET /api/admin/products/ took 8.99ms
+2025-11-12 11:26:32,397 [INFO] store.middleware: GET /api/admin/products/ took 13.07ms
+2025-11-12 11:26:33,561 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 122.80ms
+2025-11-12 11:26:33,687 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 119.03ms
+2025-11-12 11:26:34,303 [INFO] store.middleware: GET /api/admin/products/ took 9.00ms
+2025-11-12 11:26:34,320 [INFO] store.middleware: GET /api/admin/products/ took 14.00ms
+2025-11-12 11:26:52,027 [INFO] store.middleware: GET /api/admin/products/ took 70.99ms
+2025-11-12 11:26:52,043 [INFO] store.middleware: GET /api/admin/products/ took 11.00ms
+2025-11-12 11:26:52,606 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 171.10ms
+2025-11-12 11:26:52,739 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 128.10ms
+2025-11-12 11:26:55,052 [INFO] store.middleware: GET /api/admin/products/ took 8.96ms
+2025-11-12 11:26:55,067 [INFO] store.middleware: GET /api/admin/products/ took 10.22ms
+2025-11-12 11:26:56,172 [INFO] store.middleware: GET /api/admin/users/ took 11.02ms
+2025-11-12 11:26:56,187 [INFO] store.middleware: GET /api/admin/users/ took 10.11ms
+2025-11-12 11:26:57,826 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 163.66ms
+2025-11-12 11:26:57,959 [WARNING] store.middleware: Slow request: GET /api/admin/orders/ took 128.01ms
+2025-11-12 11:26:58,298 [INFO] store.middleware: GET /api/admin/products/ took 12.06ms
+2025-11-12 11:26:58,311 [INFO] store.middleware: GET /api/admin/products/ took 9.98ms
+2025-11-12 11:27:05,370 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 970.88ms
+2025-11-12 11:27:05,848 [INFO] store.middleware: GET /api/products/ took 14.10ms
+2025-11-12 11:27:05,870 [INFO] store.middleware: GET /api/products/ took 17.04ms
+2025-11-12 11:27:13,058 [INFO] store.middleware: POST /api/orders/ took 15.08ms
+2025-11-12 11:27:22,173 [INFO] store.middleware: POST /api/orders/ took 18.00ms
+2025-11-12 11:29:49,491 [INFO] store.middleware: GET /api/products/ took 19.97ms
+2025-11-12 11:29:49,513 [INFO] store.middleware: GET /api/products/ took 18.00ms
+2025-11-12 11:29:58,931 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 897.34ms
+2025-11-12 11:29:59,381 [INFO] store.middleware: GET /api/admin/products/ took 12.10ms
+2025-11-12 11:29:59,402 [INFO] store.middleware: GET /api/admin/products/ took 17.00ms
+2025-11-12 11:30:07,637 [INFO] store.middleware: GET /api/products/ took 14.98ms
+2025-11-12 11:30:07,663 [INFO] store.middleware: GET /api/products/ took 21.10ms
+2025-11-12 11:30:24,000 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 950.08ms
+2025-11-12 11:30:24,769 [INFO] store.middleware: GET /api/products/ took 8.10ms
+2025-11-12 11:30:24,780 [INFO] store.middleware: GET /api/products/ took 8.00ms
+2025-11-12 11:30:28,416 [INFO] store.middleware: GET /api/products/ took 13.00ms
+2025-11-12 11:30:28,430 [INFO] store.middleware: GET /api/products/ took 11.02ms
+2025-11-12 11:30:32,073 [WARNING] store.middleware: Slow request: POST /api/orders/ took 167.99ms
+2025-11-12 11:30:39,147 [WARNING] store.middleware: Slow request: POST /api/orders/ took 148.06ms
+2025-11-12 11:36:21,444 [INFO] store.middleware: POST /api/orders/ took 95.70ms
+2025-11-12 11:36:30,177 [WARNING] store.middleware: Slow request: GET /api/products/ took 101.99ms
+2025-11-12 11:36:30,259 [INFO] store.middleware: GET /api/products/ took 79.01ms
+2025-11-12 11:36:33,114 [WARNING] store.middleware: Slow request: GET /api/products/ took 108.12ms
+2025-11-12 11:36:33,228 [WARNING] store.middleware: Slow request: GET /api/products/ took 111.03ms
+2025-11-12 11:36:41,160 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 1003.28ms
+2025-11-12 11:36:41,607 [INFO] store.middleware: GET /api/admin/products/ took 14.07ms
+2025-11-12 11:36:41,626 [INFO] store.middleware: GET /api/admin/products/ took 15.01ms
+2025-11-12 11:37:06,651 [INFO] store.middleware: POST /api/admin/products/ took 13.01ms
+2025-11-12 11:37:06,671 [INFO] store.middleware: GET /api/admin/products/ took 13.00ms
+2025-11-12 11:37:11,043 [INFO] store.middleware: GET /api/products/ took 76.00ms
+2025-11-12 11:37:11,133 [INFO] store.middleware: GET /api/products/ took 87.01ms
+2025-11-12 11:37:12,946 [WARNING] store.middleware: Slow request: GET /api/products/ took 115.00ms
+2025-11-12 11:37:13,027 [INFO] store.middleware: GET /api/products/ took 78.01ms
+2025-11-12 11:37:18,070 [INFO] store.middleware: GET /api/products/ took 86.02ms
+2025-11-12 11:37:18,149 [INFO] store.middleware: GET /api/products/ took 77.02ms
+2025-11-12 11:39:39,681 [INFO] store.middleware: GET /api/products/ took 30.32ms
+2025-11-12 11:39:39,694 [INFO] store.middleware: GET /api/products/ took 8.47ms
+2025-11-12 11:39:53,336 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 960.42ms
+2025-11-12 11:39:53,861 [INFO] store.middleware: GET /api/products/ took 15.00ms
+2025-11-12 11:39:53,888 [INFO] store.middleware: GET /api/products/ took 24.99ms
+2025-11-12 11:39:56,621 [INFO] store.middleware: POST /api/orders/ took 27.99ms
+2025-11-12 11:40:03,738 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 941.64ms
+2025-11-12 11:40:04,179 [INFO] store.middleware: GET /api/admin/products/ took 11.86ms
+2025-11-12 11:40:04,193 [INFO] store.middleware: GET /api/admin/products/ took 10.10ms
+2025-11-12 11:40:07,102 [INFO] store.middleware: GET /api/admin/orders/ took 19.98ms
+2025-11-12 11:40:07,133 [INFO] store.middleware: GET /api/admin/orders/ took 26.10ms
+2025-11-12 11:40:11,626 [INFO] store.middleware: GET /api/admin/users/ took 14.01ms
+2025-11-12 11:40:11,644 [INFO] store.middleware: GET /api/admin/users/ took 14.10ms
+2025-11-12 11:40:18,906 [INFO] store.middleware: PUT /api/admin/users/21/ took 90.01ms
+2025-11-12 11:40:18,923 [INFO] store.middleware: GET /api/admin/users/ took 12.01ms
+2025-11-12 11:40:20,884 [INFO] store.middleware: DELETE /api/admin/users/21/ took 29.98ms
+2025-11-12 11:40:21,821 [INFO] store.middleware: GET /api/admin/orders/ took 23.00ms
+2025-11-12 11:40:21,853 [INFO] store.middleware: GET /api/admin/orders/ took 28.00ms
+2025-11-12 11:40:22,380 [INFO] store.middleware: GET /api/admin/products/ took 14.00ms
+2025-11-12 11:40:22,395 [INFO] store.middleware: GET /api/admin/products/ took 12.02ms
+2025-11-12 11:40:26,781 [INFO] store.middleware: DELETE /api/admin/products/6/ took 12.90ms
+2025-11-12 11:40:26,803 [INFO] store.middleware: GET /api/admin/products/ took 13.54ms
+2025-11-12 11:40:29,233 [INFO] store.middleware: GET /api/admin/products/ took 9.02ms
+2025-11-12 11:40:29,244 [INFO] store.middleware: GET /api/admin/products/ took 8.01ms
+2025-11-12 11:40:30,203 [INFO] store.middleware: GET /api/admin/orders/ took 28.66ms
+2025-11-12 11:40:30,238 [INFO] store.middleware: GET /api/admin/orders/ took 31.01ms
+2025-11-12 11:40:30,863 [INFO] store.middleware: GET /api/admin/products/ took 12.01ms
+2025-11-12 11:40:30,878 [INFO] store.middleware: GET /api/admin/products/ took 12.11ms
+2025-11-12 11:40:36,109 [INFO] store.middleware: DELETE /api/admin/products/6/ took 22.00ms
+2025-11-12 11:40:36,145 [INFO] store.middleware: GET /api/admin/products/ took 23.00ms
+2025-11-12 11:40:41,024 [INFO] store.middleware: DELETE /api/admin/products/6/ took 21.63ms
+2025-11-12 11:40:41,052 [INFO] store.middleware: GET /api/admin/products/ took 19.99ms
+2025-11-12 11:41:06,663 [INFO] store.middleware: GET /api/admin/products/ took 85.10ms
+2025-11-12 11:41:06,684 [INFO] store.middleware: GET /api/admin/products/ took 14.10ms
+2025-11-12 11:41:11,184 [INFO] store.middleware: DELETE /api/admin/products/7/ took 15.98ms
+2025-11-12 11:41:11,214 [INFO] store.middleware: GET /api/admin/products/ took 19.09ms
+2025-11-12 11:41:13,336 [INFO] store.middleware: GET /api/admin/products/ took 8.98ms
+2025-11-12 11:41:13,351 [INFO] store.middleware: GET /api/admin/products/ took 11.00ms
+2025-11-12 11:41:13,924 [INFO] store.middleware: GET /api/admin/orders/ took 27.00ms
+2025-11-12 11:41:13,948 [INFO] store.middleware: GET /api/admin/orders/ took 22.00ms
+2025-11-12 11:41:14,494 [INFO] store.middleware: GET /api/admin/users/ took 9.01ms
+2025-11-12 11:41:14,507 [INFO] store.middleware: GET /api/admin/users/ took 10.48ms
+2025-11-12 11:41:15,515 [INFO] store.middleware: GET /api/admin/products/ took 15.00ms
+2025-11-12 11:41:15,531 [INFO] store.middleware: GET /api/admin/products/ took 14.00ms
+2025-11-12 11:41:33,640 [INFO] store.middleware: POST /api/admin/products/ took 7.02ms
+2025-11-12 11:41:34,588 [INFO] store.middleware: POST /api/admin/products/ took 8.03ms
+2025-11-12 11:41:39,279 [INFO] store.middleware: POST /api/admin/products/ took 8.24ms
+2025-11-12 11:41:40,102 [INFO] store.middleware: POST /api/admin/products/ took 9.00ms
+2025-11-12 11:41:42,427 [INFO] store.middleware: POST /api/admin/products/ took 7.00ms
+2025-11-12 11:41:49,869 [INFO] store.middleware: POST /api/admin/products/ took 13.92ms
+2025-11-12 11:41:49,893 [INFO] store.middleware: GET /api/admin/products/ took 14.05ms
+2025-11-12 11:42:03,406 [INFO] store.middleware: GET /api/products/ took 12.06ms
+2025-11-12 11:42:03,421 [INFO] store.middleware: GET /api/products/ took 10.98ms
+2025-11-12 11:49:18,644 [INFO] store.middleware: GET /api/products/ took 35.00ms
+2025-11-12 11:49:18,654 [INFO] store.middleware: GET /api/products/ took 7.00ms
+2025-11-12 11:50:56,790 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 1004.79ms
+2025-11-12 11:50:57,341 [INFO] store.middleware: GET /api/products/ took 18.12ms
+2025-11-12 11:50:57,374 [INFO] store.middleware: GET /api/products/ took 25.18ms
+2025-11-12 11:52:27,026 [INFO] store.middleware: POST /api/orders/ took 32.00ms
+2025-11-12 11:52:28,174 [INFO] store.middleware: GET /api/products/ took 8.99ms
+2025-11-12 11:52:28,184 [INFO] store.middleware: GET /api/products/ took 8.13ms
+2025-11-12 11:58:53,172 [WARNING] store.middleware: Slow request: POST /api/register/ took 1048.82ms
+2025-11-12 11:59:03,912 [WARNING] store.middleware: Slow request: POST /api/admin/api/token/ took 976.17ms
+2025-11-12 11:59:04,403 [INFO] store.middleware: GET /api/products/ took 30.01ms
+2025-11-12 11:59:04,423 [INFO] store.middleware: GET /api/products/ took 15.01ms
+2025-11-12 11:59:11,520 [INFO] store.middleware: POST /api/orders/ took 60.02ms
