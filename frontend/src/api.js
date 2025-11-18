@@ -86,3 +86,6 @@ export const adminGetOrders = () => apiFetch("admin/orders/", "GET");
 //Delete Product
 export const adminDeleteProduct = (id) =>
   apiFetch(`admin/products/${id}/`, "DELETE");
+
+// admin dashboard
+export const getAdminDashboardStats = () => apiFetch("admin/dashboard/", "GET");

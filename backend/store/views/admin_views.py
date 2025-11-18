@@ -4,6 +4,8 @@ from ..serializers import ProductSerializer, OrderSerializer, AdminUserSerialize
 from ..permissions import IsAdmin, IsStaffOrAdmin
 from ..decorators import admin_required
 from rest_framework.response import Response 
+from rest_framework.views import APIView
+from django.db.models import Sum, F
 
 # Admin Products
 class AdminProductViewSet(viewsets.ModelViewSet):
@@ -43,3 +45,25 @@ class AdminUserViewSet(viewsets.ModelViewSet):
     @admin_required
     def destroy(self, request, *args, **kwargs):
         return super().destroy(request, *args, **kwargs)
+
+# Admin dashboard
+class AdminDashboardStats(APIView):
+    permission_classes = [IsAdmin]
+
+    def get(self, request):
+        total_users = User.objects.count()
+        total_products = Product.objects.filter(is_active=True).count()
+        total_orders = Order.objects.count()
+
+        total_revenue = (
+            Order.objects.aggregate(
+                revenue=Sum(F("items__quantity") * F("items__price"))
+            )["revenue"] or 0
+        )
+
+        return Response({
+            "total_users": total_users,
+            "total_products": total_products,
+            "total_orders": total_orders,
+            "total_revenue": total_revenue
+        })
