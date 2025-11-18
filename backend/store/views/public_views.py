@@ -7,12 +7,14 @@ from rest_framework.response import Response
 class ProductListAPI(generics.ListAPIView):
     queryset = Product.objects.filter(is_active=True)
     serializer_class = ProductSerializer
+    authentication_classes = [] 
     permission_classes = [permissions.AllowAny]
     
 
 class ProductDetailAPI(generics.RetrieveAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+    authentication_classes = [] 
     permission_classes = [permissions.AllowAny]
 
 

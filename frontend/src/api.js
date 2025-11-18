@@ -2,7 +2,6 @@ export async function apiFetch(endpoint, method = "GET", body = null) {
   const token = localStorage.getItem("access"); // JWT access token
 
   const res = await fetch(`http://127.0.0.1:8000/api/${endpoint}`, {
-    // <-- append endpoint
     method,
     headers: {
       "Content-Type": "application/json",
